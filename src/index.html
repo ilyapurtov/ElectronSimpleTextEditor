@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SimpleTextEditor - простой текстовый редактор</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src='js/script.js'></script>
+  </head>
+  <body>
+    <div class="toolbar">
+    	<div class="toolbar__buttons">
+    		<div class="toolbar__item" id="new_file" title="Новый файл">
+	    		<img src="img/newfile.png">
+	    	</div>
+	    	<div class="toolbar__item" id="open_file" title="Открыть файл">
+	    		<img src="img/openfile.png">
+	    	</div>
+	    	<div class="toolbar__item" id="close_file" title="Закрыть файл">
+	    		<img src="img/closefile.png">
+	    	</div>
+	    	<div class="toolbar__item" id="save_file" title="Сохранить файл">
+	    		<img src="img/save.png">
+	    	</div>
+	    	<div class="toolbar__item" id="delete_file" title="Удалить файл">
+	    		<img src="img/deletefile.png">
+	    	</div>
+	    	<div class="toolbar__item" id="copy" title="Скопировать">
+	    		<img src="img/copy.png">
+	    	</div>
+	    	<div class="toolbar__item" id="paste" title="Вставить">
+	    		<img src="img/paste.png">
+	    	</div>
+	    	<div class="toolbar__item" id="openFileInNextRunTime" title="Открыть этот файл при следующем запуске программы">
+	    		<img src="img/task.png">
+	    	</div>
+	    	<div class="toolbar__item" id="help" title="О программе">
+	    		<img src="img/info.png">
+	    	</div>
+    	</div>
+    	<div id="current__file">
+    		Редактируется: <span id="current_file_path">Новый файл</span>
+    	</div>
+    </div>
+    <div id="textarea" class="textarea" contenteditable=true></div>
+    <div class="dark"></div>
+    <div class="confirm__deleting__alert">
+    	<div class="alert__title"></div>
+    	<div class="alert__text"></div>
+    	<div class="alert__buttons"></div>
+    </div>
+    <div class="popup"></div>
+  </body>
+</html>
