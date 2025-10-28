@@ -12,5 +12,3 @@ npm i
 * 1 > Download => [Click](https://yadi.sk/d/nY8i3NOAke1dIg)
 * 2 > Install
 * 3 > Run a shortcut from your desktop
-### My website
-[Visit please :3](http://yours.ilpur.ml/)
